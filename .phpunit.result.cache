@@ -1,1 +1,0 @@
-{"version":1,"defects":{"Tests\\MockApiTest::it_gets_products":3,"Tests\\MockApiTest::test_get_products":4,"Tests\\MockApiTest::test_get_product_information":4},"times":{"Tests\\MockApiTest::it_gets_products":0.136,"Tests\\MockApiTest::test_get_products":6.32,"Tests\\MockApiTest::test_get_product_information":1.249}}
