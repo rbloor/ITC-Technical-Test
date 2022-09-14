@@ -2,7 +2,7 @@
 
 # Author: Ryan Bloor
 
-A simple MVC MockAPI Viewer that does the following:
+A simple MVC MockAPI Viewer using Guzzle with basic Unit Tests and Logging.
 
 Unit Tests:
 

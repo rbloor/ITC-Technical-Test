@@ -3119,3 +3119,35 @@
 [9/14/2022, 8:00 pm] testing-getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=combgap HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.85.0 PHP/8.1.10 Host: www.itccompliance.co.uk  
 [9/14/2022, 8:00 pm] testing-getting-products-and-information.INFO: BODY:   
 [9/14/2022, 8:00 pm] testing-getting-products-and-information.INFO: RESPONSE: 200 - {"combgap":{"name":"Combined GAP","description":"Combines the benefits of Total Loss and Finance GAP which pays the higher of the invoice value or the finance settlement figure when a vehicle is deemed a total loss","type":"motor","suppliers":["Vehicle Protect UK","E&M GAP Insurance"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/list HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/list HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"products":{"combgap":"Combined GAP","smart":"SMART","annualtravel":"Annual Multi-Trip Travel Insurance","singletravel":"Single-Trip Travel Insurance","buildcont":"Buildings & Contents Insurance","income":"Income Protection","car":"Car Insurance"}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=combgap HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=combgap HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"combgap":{"name":"Combined GAP","description":"Combines the benefits of Total Loss and Finance GAP which pays the higher of the invoice value or the finance settlement figure when a vehicle is deemed a total loss","type":"motor","suppliers":["Vehicle Protect UK","E&M GAP Insurance"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=smart HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=smart HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"smart":{"name":"SMART","description":"Pays for repairs to minor or cosmetic damage to your vehicle","type":"motor","suppliers":["Vehicle Protect UK"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=annualtravel HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=annualtravel HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"annualtravel":{"name":"Annual Multi-Trip Travel Insurance","description":"Worldwide annual travel insurance, multi-trip","type":"travel","suppliers":["Insuria Travel","My Travel Insurance Company","Happy Camper UK Ltd"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=singletravel HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=singletravel HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"singletravel":{"name":"Single-Trip Travel Insurance","description":"Worldwide travel insurance, single-trip","type":"travel","suppliers":["Insuria Travel","Happy Camper UK Ltd"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=buildcont HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=buildcont HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"buildcont":{"name":"Buildings & Contents Insurance","description":"Protection for your home: buildings and contents","type":"home","suppliers":["My Happy Home","Bricks n' Mortar Protect 4U"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=income HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=income HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"income":{"name":"Income Protection","description":"Protection against redundancy, long term sickness and disability","type":"income","suppliers":["SuperInsure<span style=\"display: none\">78a1bc9e567fa197bb3<\/div>"]}}  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: GET https://www.itccompliance.co.uk/recruitment-webservice/api/info?id=car HTTP/1.1  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: HEADERS: GET /recruitment-webservice/api/info?id=car HTTP/1.1 Accept: application/json User-Agent: GuzzleHttp/6.5.5 curl/7.68.0 PHP/8.1.1 Host: www.itccompliance.co.uk  
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: BODY:   
+[9/14/2022, 8:06 pm] getting-products-and-information.INFO: RESPONSE: 200 - {"car":{"name":"Car Insurance","description":"\u0000\"Comprehensive car insurance\"\u001e"}}  
