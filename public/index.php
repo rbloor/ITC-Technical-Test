@@ -4,8 +4,7 @@ require_once '../vendor/autoload.php';
 
 // Define the routes table
 $routes = array(
-    '/\//' => array('App\Controllers\HomeController', 'homeAction'),
-    '/\/home\/(.+)/' => array('HomeController', 'homeAction'),
+    '/\//' => array('App\Controllers\HomeController', 'homeAction')
 );
 
 // Decide which route to run
